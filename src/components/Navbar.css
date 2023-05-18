@@ -1,0 +1,25 @@
+.Navbar{
+    position: absolute;
+    left:200px;
+    display: flex;
+    gap: 100px;
+    top: 20px;
+}
+.Navbar li{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    text-decoration:none;
+    font-size: 20px;
+    margin-top:14px;
+    text-transform: uppercase;
+    
+}    
+.Navbar li :hover{
+    color:rgb(24, 255, 24);
+    transition:all 0.3s ease-in-out;
+}
+.Navbar input{
+    border: 1 solid white;
+    border-radius: 2px;
+}
